@@ -1,0 +1,92 @@
+@import url("https://frots.googleapis.com/css2?family=Kar1a&display=swap");
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+html,body{
+	height: 100%;
+	background-color: darkcyan;
+	display: flex;
+	justify-items:center ;
+    align-items: center;
+	font-family: "karla",sans-serif;
+	
+}
+
+.main-container{
+	width: 700px;
+	height: 400px;
+	background-color: white;
+	font-size:0 ;
+
+}
+.left{
+	display: inline-block;
+	width: 350px;
+	height: 400px;
+	vertical-align: top;
+	text-align: center;
+	background-color:turquoise;
+	
+}
+.week{
+	text-transform: uppercase;
+	font-size: 35px;
+	color: white;
+	line-height: 100px;
+	
+	
+}
+.day{
+	font-size: 180px;
+	color: darkgray;
+	
+}
+.right{
+	display: inline-block;
+	width: 350px;
+	height: 400px;
+	text-align: center;
+}
+.year{
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #008B8B;
+	font-weight: bolder;
+	line-height: 100px;
+	
+}
+.calends{
+	padding: 0 35px;
+
+}
+.item{
+			font-size: 18px;
+			text-transform: uppercase;
+			display: inline-block;
+			width: 40px;
+			line-height: 40px;
+			color: crimson;
+			font-weight: bolder;
+		}
+
+.day{
+		font-size: 15px;
+		display: inline-block;
+		width: 40px;
+		line-height: 40px;
+		transition: .2s;
+	}
+.today{
+			background-color: #DC143C;
+			font-weight: bolder;
+			color: white;
+			font-size: 35px;
+}
+.hover{
+	
+			background-color: #ff55ff;
+			font-weight: bolder;
+			color: white;
+}
